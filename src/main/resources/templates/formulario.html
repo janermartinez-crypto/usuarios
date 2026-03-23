@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registro de Usuario</title>
+</head>
+<body>
+
+<h2>Registrar Usuario</h2>
+
+<form action="/guardar" method="post">
+    Nombre: <input type="text" name="nombre"><br><br>
+    Correo: <input type="email" name="correo"><br><br>
+    <button type="submit">Guardar</button>
+</form>
+
+<a href="/lista">Ver lista</a>
+
+</body>
+</html>
